@@ -1,3 +1,5 @@
-$(document).ready(function () {
-  $('body').html('<h1>Hello jQuery!!</h1>');
+$(function(){
+	$('.box1').slideDown();
+	$('.box1').css({'background-color': 'blue'});
+	$('.box2').show('slow');
 });
